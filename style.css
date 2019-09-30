@@ -1,0 +1,38 @@
+a {
+    color: pink;
+    text-decoration: none; 
+    }
+h1 {
+    font-size:60px;
+    text-align: center;
+    border-bottom: 1px solid gray;
+    margin:0;
+    padding:20px
+
+}
+ol{
+    border-right:1px solid gray;
+    width:100px;
+    margin: 0;
+    padding: 35px;
+    font-size: 25px
+}
+
+
+#rina{
+    display : grid; 
+    grid-template-columns: 150px 1fr;  
+    
+}
+
+#rina2{
+    padding: 40px;
+    padding-top: 10px;
+}
+
+@media (max-width:500px){
+   h1 {border-bottom : none;}
+   ol{border-right:none; }
+   #rina2{display:block; padding-top:0px; padding:0px;}
+   #rina{display:block;}
+   }
